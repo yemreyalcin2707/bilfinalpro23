@@ -26,3 +26,4 @@ while run:
 		screen.blit(cetvel,(500,40))
 		moving_yay.draw(screen)
 		moving_yay.update(speed)
+	if State != any:
