@@ -11,3 +11,4 @@ while run:
 		if tip2.draw(screen):
 			Tip = Demir
 			İsim = "Demir"
+		if tip3.draw(screen):
