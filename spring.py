@@ -14,3 +14,4 @@ while run:
 		if tip3.draw(screen):
 			Tip = Celik
 			İsim = "Celik"
+		if kilo1.draw(screen):
