@@ -23,6 +23,8 @@ class Player(pygame.sprite.Sprite):
 
 	def calıs(self):
 		self.yay_hareketi = True
+
+	def update(self,speed):
 	
 run = True
 while run:
