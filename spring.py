@@ -6,6 +6,8 @@ class Player(pygame.sprite.Sprite):
 		super().__init__()
 		self.yay_hareketi = False
 		self.yay = []
+		
+		self.yay.append(pygame.image.load('-1.5.png'))
 	
 run = True
 while run:
