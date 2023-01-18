@@ -24,3 +24,4 @@ while run:
 			State= "devam"
 	if State == "devam":
 		screen.blit(cetvel,(500,40))
+		moving_yay.draw(screen)
