@@ -9,6 +9,7 @@ class Player(pygame.sprite.Sprite):
 		
 		self.yay.append(pygame.image.load('-1.5.png'))
 		self.yay.append(pygame.image.load('-1.png'))
+		self.yay.append(pygame.image.load('-0.5.png'))
 	
 run = True
 while run:
