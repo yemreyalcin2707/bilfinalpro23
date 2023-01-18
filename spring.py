@@ -17,6 +17,9 @@ class Player(pygame.sprite.Sprite):
 		self.yay.append(pygame.image.load('2.png'))
 		self.yay_durum = 0
 		self.image = self.yay[self.yay_durum]
+
+		self.rect = self.image.get_rect()
+		self.rect.topleft = [pos_x,pos_y]
 	
 run = True
 while run:
