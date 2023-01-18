@@ -35,6 +35,9 @@ class Player(pygame.sprite.Sprite):
 pygame.init()
 clock = pygame.time.Clock()
 
+# Game Screen
+screen_width = 1000
+screen_height = 800
 					
 Color = ((0,0,0))
 Demir = 2
