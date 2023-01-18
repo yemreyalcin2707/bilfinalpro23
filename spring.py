@@ -23,3 +23,4 @@ while run:
 		if Basla.draw(screen):
 			State= "devam"
 	if State == "devam":
+		screen.blit(cetvel,(500,40))
