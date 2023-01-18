@@ -27,6 +27,7 @@ class Player(pygame.sprite.Sprite):
 	def update(self,speed):
 
 		if self.yay_hareketi == True:
+			self.yay_durum += speed
 	
 run = True
 while run:
