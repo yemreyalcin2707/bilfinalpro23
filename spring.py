@@ -47,6 +47,7 @@ player = Player(50,0)
 moving_yay.add(player)
 
 
+# butonlara görsellerin atanması
 cetvel = pygame.image.load("cetvel.png")
 buton = pygame.image.load("8kg.png")
 buton1 = pygame.image.load("6kg.png")
