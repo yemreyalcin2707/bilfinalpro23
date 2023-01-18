@@ -20,3 +20,4 @@ while run:
 			kilo = 6
 		if kilo3.draw(screen):
 			kilo = 4
+		if Basla.draw(screen):
