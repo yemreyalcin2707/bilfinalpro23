@@ -49,6 +49,7 @@ moving_yay.add(player)
 
 cetvel = pygame.image.load("cetvel.png")
 buton = pygame.image.load("8kg.png")
+buton1 = pygame.image.load("6kg.png")
 					
 Color = ((0,0,0))
 Demir = 2
