@@ -145,7 +145,7 @@ while run:
 			kilo = 6
 		if kilo3.draw(screen):
 			kilo = 4
-		if Basla.draw(screen):
+		if Basla.draw(screen):#üstte ki atanan komutlar seçildikten sonrasında onlara göre programı devam ettir.
 			State= "devam"
 	if State == "devam":
 		screen.blit(cetvel,(500,40))
