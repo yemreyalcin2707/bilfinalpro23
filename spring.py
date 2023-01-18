@@ -10,3 +10,4 @@ while run:
 			İsim = "Bakır"
 		if tip2.draw(screen):
 			Tip = Demir
+			İsim = "Demir"
