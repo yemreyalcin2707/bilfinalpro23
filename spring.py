@@ -56,6 +56,7 @@ buton3 = pygame.image.load("demir.png")
 buton4 = pygame.image.load("Celik.png")
 buton5 = pygame.image.load("bakır.png")
 buton6 = pygame.image.load("basla.png")
+Grafik = pygame.image.load("Yaygrafik.png")
 					
 Color = ((0,0,0))
 Demir = 2
