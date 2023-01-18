@@ -22,6 +22,7 @@ class Player(pygame.sprite.Sprite):
 		self.rect.topleft = [pos_x,pos_y]
 
 	def calıs(self):
+		self.yay_hareketi = True
 	
 run = True
 while run:
