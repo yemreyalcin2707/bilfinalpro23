@@ -37,6 +37,7 @@ def draw_text(text, font, text_col, x, y):
   screen.blit(img, (x, y))
 def yay_hesap(K,m):
 	global X
+	F = m * (9.81)
 
 run = True
 while run:
