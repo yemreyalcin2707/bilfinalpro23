@@ -22,3 +22,4 @@ while run:
 			kilo = 4
 		if Basla.draw(screen):
 			State= "devam"
+	if State == "devam":
