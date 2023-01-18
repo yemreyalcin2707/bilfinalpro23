@@ -28,3 +28,5 @@ while run:
 		moving_yay.update(speed)
 	if State != any:
 		draw_text("Kilo: {} KG ".format(kilo), font,Color,40,250)
+		draw_text("Tip: {} ".format(İsim), font,Color,40,300)
+
