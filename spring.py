@@ -49,6 +49,8 @@ def yay_hesap(K,m):
 	F = m * (9.81)
 	X = F/K
 	print(round(X/10))
+pygame.init()
+clock = pygame.time.Clock()
 	
 	
 
