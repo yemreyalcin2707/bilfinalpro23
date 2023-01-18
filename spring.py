@@ -18,3 +18,4 @@ while run:
 			kilo = 8
 		if kilo2.draw(screen):
 			kilo = 6
+		if kilo3.draw(screen):
