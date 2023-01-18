@@ -16,3 +16,4 @@ while run:
 			İsim = "Celik"
 		if kilo1.draw(screen):
 			kilo = 8
+		if kilo2.draw(screen):
