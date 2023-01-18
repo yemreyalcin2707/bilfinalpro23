@@ -5,6 +5,7 @@ class Player(pygame.sprite.Sprite):
 		global ters
 		super().__init__()
 		self.yay_hareketi = False
+		self.yay = []
 	
 run = True
 while run:
