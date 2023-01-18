@@ -12,3 +12,4 @@ while run:
 			Tip = Demir
 			İsim = "Demir"
 		if tip3.draw(screen):
+			Tip = Celik
