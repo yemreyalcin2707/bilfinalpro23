@@ -16,6 +16,7 @@ class Player(pygame.sprite.Sprite):
 		self.yay.append(pygame.image.load('1.5.png'))
 		self.yay.append(pygame.image.load('2.png'))
 		self.yay_durum = 0
+		self.image = self.yay[self.yay_durum]
 	
 run = True
 while run:
