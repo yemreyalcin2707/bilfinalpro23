@@ -31,7 +31,12 @@ class Player(pygame.sprite.Sprite):
 			self.image = self.yay[int(self.yay_durum)]
 			if int(self.yay_durum) == (round(X/10)):
 					self.yay_hareketi = False
-			
+
+					
+					
+Tip = 2		
+kilo = 4
+speed = 0.15			
 def draw_text(text, font, text_col, x, y):
   img = font.render(text, True, text_col)
   screen.blit(img, (x, y))
