@@ -21,3 +21,4 @@ while run:
 		if kilo3.draw(screen):
 			kilo = 4
 		if Basla.draw(screen):
+			State= "devam"
