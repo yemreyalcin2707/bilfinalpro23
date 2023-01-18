@@ -38,3 +38,4 @@ while run:
 		if event.type == pygame.KEYDOWN:
 			player.calıs()
 			print(kilo)
+			print(Tip)
