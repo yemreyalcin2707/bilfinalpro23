@@ -33,6 +33,7 @@ class Player(pygame.sprite.Sprite):
 					self.yay_hareketi = False
 			
 def draw_text(text, font, text_col, x, y):
+  img = font.render(text, True, text_col)
 
 run = True
 while run:
