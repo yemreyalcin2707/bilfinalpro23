@@ -40,6 +40,12 @@ screen_width = 1000
 screen_height = 800
 screen = pygame.display.set_mode((screen_width,screen_height))
 pygame.display.set_caption("Sprite Animation")
+
+
+# Creating the yay and groups
+moving_yay = pygame.sprite.Group()
+player = Player(50,0)
+moving_yay.add(player)
 					
 Color = ((0,0,0))
 Demir = 2
