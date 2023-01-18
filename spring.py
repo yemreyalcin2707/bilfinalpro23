@@ -27,3 +27,4 @@ while run:
 		moving_yay.draw(screen)
 		moving_yay.update(speed)
 	if State != any:
+		draw_text("Kilo: {} KG ".format(kilo), font,Color,40,250)
