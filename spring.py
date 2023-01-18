@@ -126,7 +126,7 @@ def yay_hesap(K,m):
 run = True
 while run:
 	screen.fill((255, 255, 255))
-
+#ekran rengi belirlenir
 	
 	#yayın cinsini seçmemiz isteniyor
 	if State == "seçenek":
@@ -149,8 +149,10 @@ while run:
 			State= "devam"
 	if State == "devam":
 		screen.blit(cetvel,(500,40))
+		#cetvel ekrana yansıtılır
 		screen.blit(Grafik,(565,40))
 		moving_yay.draw(screen)
+		#yay ekrana yansıtılır
 		moving_yay.update(speed)
 	if State != any:
 		draw_text("Kilo: {} KG ".format(kilo), font,Color,40,250)
