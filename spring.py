@@ -1,5 +1,7 @@
 import pygame, sys
+
 class Player(pygame.sprite.Sprite):
+	def __init__(self, pos_x, pos_y):
 	
 run = True
 while run:
