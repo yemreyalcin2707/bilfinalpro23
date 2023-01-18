@@ -31,6 +31,38 @@ class Player(pygame.sprite.Sprite):
 			self.image = self.yay[int(self.yay_durum)]
 			if int(self.yay_durum) == (round(X/10)):
 					self.yay_hareketi = False
+					
+					
+					
+					
+class Button():
+	def _init_(self, x, y, image, scale):
+		width = image.get_width()
+		height = image.get_height()
+		self.image = pygame.transform.scale(image, (int(width * scale), int(height * scale)))
+		self.rect = self.image.get_rect()
+		self.rect.topleft = (x, y)
+		self.clicked = False
+
+	def draw(self, surface):
+		action = False
+		#get mouse position
+		pos = pygame.mouse.get_pos()
+
+		#check mouseover and clicked conditions fareyle üzerine gelme ve tıklanma koşullarına baktık
+		if self.rect.collidepoint(pos):
+			if pygame.mouse.get_pressed()[0] == 1 and self.clicked == False:
+				self.clicked = True
+				action = True
+
+		if pygame.mouse.get_pressed()[0] == 0:
+			self.clicked = False
+
+		#draw button on screen
+		surface.blit(self.image, (self.rect.x, self.rect.y))
+
+		return action 
+					
 pygame.init()
 clock = pygame.time.Clock()
 
@@ -57,7 +89,20 @@ buton4 = pygame.image.load("Celik.png")
 buton5 = pygame.image.load("bakır.png")
 buton6 = pygame.image.load("basla.png")
 Grafik = pygame.image.load("Yaygrafik.png")
-					
+
+width = cetvel.get_width()
+height = cetvel.get_height()
+scale = 0.7
+cetvel = pygame.transform.scale(cetvel, (int(width * scale), int(height * scale)))
+tip1 = Button(350,300,buton5,0.8)
+tip2 = Button(350,400,buton3,0.8)
+tip3 = Button(350,500,buton4,0.8)
+kilo1 = Button(500,300,buton,0.8)
+kilo2 = Button(500,400,buton1,0.8)
+kilo3 = Button(500,500,buton2,0.8)
+Basla = Button(400,600,buton6,1)
+State = "seçenek"
+font = pygame.font.SysFont("Arial", 25)
 Color = ((0,0,0))
 Demir = 2
 Bakır = 1.5
