@@ -128,7 +128,7 @@ while run:
 	screen.fill((255, 255, 255))
 
 	
-	
+	#yayın cinsini seçmemiz isteniyor
 	if State == "seçenek":
 		if tip1.draw(screen):
 			Tip = Bakır
@@ -139,7 +139,7 @@ while run:
 		if tip3.draw(screen):
 			Tip = Celik
 			İsim = "Celik"
-		if kilo1.draw(screen):
+		if kilo1.draw(screen):#yaya uygulanacak kuvveti seçmemiz isteniyor
 			kilo = 8
 		if kilo2.draw(screen):
 			kilo = 6
