@@ -36,6 +36,7 @@ def draw_text(text, font, text_col, x, y):
   img = font.render(text, True, text_col)
   screen.blit(img, (x, y))
 def yay_hesap(K,m):
+	global X
 
 run = True
 while run:
