@@ -31,6 +31,8 @@ class Player(pygame.sprite.Sprite):
 			self.image = self.yay[int(self.yay_durum)]
 			if int(self.yay_durum) == (round(X/10)):
 					self.yay_hareketi = False
+			
+def draw_text(text, font, text_col, x, y):
 
 run = True
 while run:
