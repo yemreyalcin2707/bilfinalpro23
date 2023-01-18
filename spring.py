@@ -1,5 +1,3 @@
-run = True
-while run:
 	screen.fill((255, 255, 255))
 
 	
@@ -30,3 +28,5 @@ while run:
 		draw_text("Kilo: {} KG ".format(kilo), font,Color,40,250)
 		draw_text("Tip: {} ".format(İsim), font,Color,40,300)
 
+	
+	for event in pygame.event.get():
