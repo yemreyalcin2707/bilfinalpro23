@@ -20,6 +20,8 @@ class Player(pygame.sprite.Sprite):
 
 		self.rect = self.image.get_rect()
 		self.rect.topleft = [pos_x,pos_y]
+
+	def calıs(self):
 	
 run = True
 while run:
