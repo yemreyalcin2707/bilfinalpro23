@@ -34,7 +34,7 @@ class Player(pygame.sprite.Sprite):
 
 					
 					
-					
+Demir = 2
 Bakır = 1.5
 Celik = 2.5
 İsim = "Demir
