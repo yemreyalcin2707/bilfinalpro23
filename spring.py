@@ -52,6 +52,7 @@ buton = pygame.image.load("8kg.png")
 buton1 = pygame.image.load("6kg.png")
 buton2 = pygame.image.load("4kg.png")
 buton3 = pygame.image.load("demir.png")
+buton4 = pygame.image.load("Celik.png")
 					
 Color = ((0,0,0))
 Demir = 2
