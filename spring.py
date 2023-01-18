@@ -38,6 +38,8 @@ clock = pygame.time.Clock()
 # Game Screen
 screen_width = 1000
 screen_height = 800
+screen = pygame.display.set_mode((screen_width,screen_height))
+pygame.display.set_caption("Sprite Animation")
 					
 Color = ((0,0,0))
 Demir = 2
