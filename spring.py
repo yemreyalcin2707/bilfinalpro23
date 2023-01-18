@@ -39,3 +39,4 @@ while run:
 			player.calıs()
 			print(kilo)
 			print(Tip)
+			yay_hesap(Tip,kilo)
