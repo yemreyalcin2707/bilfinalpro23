@@ -5,3 +5,7 @@ while run:
 	
 	
 	if State == "seçenek":
+
+		if tip1.draw(screen):
+			Tip = Bakır
+			İsim = "Bakır"
