@@ -37,3 +37,4 @@ while run:
 			sys.exit()
 		if event.type == pygame.KEYDOWN:
 			player.calıs()
+			print(kilo)
