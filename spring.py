@@ -33,7 +33,11 @@ class Player(pygame.sprite.Sprite):
 					self.yay_hareketi = False
 
 					
-İsim = "Demir"
+					
+					
+Bakır = 1.5
+Celik = 2.5
+İsim = "Demir
 Tip = 2		
 kilo = 4
 speed = 0.15			
