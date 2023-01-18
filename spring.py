@@ -38,6 +38,7 @@ def draw_text(text, font, text_col, x, y):
 def yay_hesap(K,m):
 	global X
 	F = m * (9.81)
+	X = F/K
 
 run = True
 while run:
