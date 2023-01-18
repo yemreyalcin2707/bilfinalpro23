@@ -2,6 +2,9 @@ import pygame, sys
 
 class Player(pygame.sprite.Sprite):
 	def __init__(self, pos_x, pos_y):
+		global ters
+		super().__init__()
+		self.yay_hareketi = False
 	
 run = True
 while run:
