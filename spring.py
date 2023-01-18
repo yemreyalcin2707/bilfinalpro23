@@ -40,3 +40,8 @@ while run:
 			print(kilo)
 			print(Tip)
 			yay_hesap(Tip,kilo)
+
+			
+ 
+		
+	pygame.display.flip()
