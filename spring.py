@@ -28,6 +28,7 @@ class Player(pygame.sprite.Sprite):
 
 		if self.yay_hareketi == True:
 			self.yay_durum += speed
+			self.image = self.yay[int(self.yay_durum)]
 	
 run = True
 while run:
