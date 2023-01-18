@@ -1,4 +1,6 @@
 import pygame, sys
+class Player(pygame.sprite.Sprite):
+	
 run = True
 while run:
 	screen.fill((255, 255, 255))
