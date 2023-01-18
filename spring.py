@@ -33,7 +33,7 @@ class Player(pygame.sprite.Sprite):
 					self.yay_hareketi = False
 
 					
-					
+Color = ((0,0,0))
 Demir = 2
 Bakır = 1.5
 Celik = 2.5
