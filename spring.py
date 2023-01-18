@@ -31,7 +31,6 @@ class Player(pygame.sprite.Sprite):
 			self.image = self.yay[int(self.yay_durum)]
 			if int(self.yay_durum) == (round(X/10)):
 					self.yay_hareketi = False
-
 pygame.init()
 clock = pygame.time.Clock()
 
@@ -46,6 +45,9 @@ pygame.display.set_caption("Sprite Animation")
 moving_yay = pygame.sprite.Group()
 player = Player(50,0)
 moving_yay.add(player)
+
+
+cetvel = pygame.image.load("cetvel.png")
 					
 Color = ((0,0,0))
 Demir = 2
