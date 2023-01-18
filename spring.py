@@ -1,3 +1,7 @@
-import pygame, sys
 run = True
-screen.fill((255, 255, 255))
+while run:
+	screen.fill((255, 255, 255))
+
+	
+	
+	if State == "seçenek":
