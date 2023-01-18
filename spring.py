@@ -155,12 +155,12 @@ while run:
 		#yay ekrana yansıtılır
 		moving_yay.update(speed)
 	if State != any:
-		draw_text("Kilo: {} KG ".format(kilo), font,Color,40,250)
-		draw_text("Tip: {} ".format(İsim), font,Color,40,300)
+		draw_text("Kilo: {} KG ".format(kilo), font,Color,40,250)#ekrana kg bilgileri yansıtılır
+		draw_text("Tip: {} ".format(İsim), font,Color,40,300)#ekrana tip bilgileri yazdırılır
 
 	
 	for event in pygame.event.get():
-		if event.type == pygame.QUIT:
+		if event.type == pygame.QUIT:#ekrana kapatması için gerekli kodlar yazdırılır.
 			pygame.quit()
 			sys.exit()
 		if event.type == pygame.KEYDOWN:
