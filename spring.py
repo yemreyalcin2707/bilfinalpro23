@@ -36,3 +36,4 @@ while run:
 			pygame.quit()
 			sys.exit()
 		if event.type == pygame.KEYDOWN:
+			player.calıs()
