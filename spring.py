@@ -32,6 +32,9 @@ class Player(pygame.sprite.Sprite):
 			if int(self.yay_durum) == (round(X/10)):
 					self.yay_hareketi = False
 
+pygame.init()
+clock = pygame.time.Clock()
+
 					
 Color = ((0,0,0))
 Demir = 2
@@ -49,8 +52,7 @@ def yay_hesap(K,m):
 	F = m * (9.81)
 	X = F/K
 	print(round(X/10))
-pygame.init()
-clock = pygame.time.Clock()
+
 	
 	
 
