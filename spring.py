@@ -30,7 +30,8 @@ class Player(pygame.sprite.Sprite):
 			self.yay_durum += speed
 			self.image = self.yay[int(self.yay_durum)]
 			if int(self.yay_durum) == (round(X/10)):
-	
+					self.yay_hareketi = False
+
 run = True
 while run:
 	screen.fill((255, 255, 255))
