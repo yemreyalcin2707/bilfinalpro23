@@ -28,6 +28,7 @@ class Player(pygame.sprite.Sprite):
 		self.yay_hareketi = True
 
 	def update(self,speed):
+		#yay hareketi için gerekli olan sıralı fotoğraflama sistemini harekete geçirmek için gerekolan süre ayarı
 
 		if self.yay_hareketi == True:
 			self.yay_durum += speed
