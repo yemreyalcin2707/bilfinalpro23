@@ -2,6 +2,7 @@ import pygame, sys
 # pygame kütüphanesinin çağırılması
 
 class Player(pygame.sprite.Sprite):
+	#görüntü yönetimi için bütün görsellerin clasa toplanması cod içinde duruma göre klastan çağırılıyor geekforgreeks ve freecodecampten yararlanıldı
 	def __init__(self, pos_x, pos_y):
 		global ters
 		super().__init__()
